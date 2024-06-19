@@ -11,7 +11,6 @@ Ensure you have installed the following Python packages:
 - `networkx`: For graph manipulation and visualization.
 - `matplotlib`: For plotting graphs.
 
-You can install these dependencies using pip:
 
 ```bash
 pip install torch torch-geometric scikit-learn networkx matplotlib
