@@ -1,6 +1,6 @@
-### README: Airport Graph Analysis and Visualization
+### Airport Graph Data Analysis and Visualization
 
-This repository contains Python code for analyzing and visualizing airport networks using graph-based techniques. The code utilizes `torch_geometric` for dataset handling and `networkx` for graph operations. The goal is to cluster airports based on their features and visualize the clusters along with the most important airports identified through centrality measures.
+This repository contains Python code for analyzing and visualizing airport networks using graph-based techniques.
 
 #### Prerequisites
 
@@ -35,7 +35,7 @@ The main functionalities of the code include:
    - KMeans clustering is applied to cluster airports based on their node features.
 
 4. **Identifying Important Nodes:**
-   - The most important airports within each cluster are identified using betweenness centrality, which measures the influence of airports in the network.
+   - The most important nodes or airports within each cluster are identified using betweenness centrality, which measures the influence of airports in the network.
 
 5. **Visualization:**
    - The airports and their connections are visualized using NetworkX, where each cluster is represented by a different color, and important airports are highlighted.
@@ -45,16 +45,13 @@ The main functionalities of the code include:
 To analyze and visualize different datasets (e.g., "USA", "Brazil", "Europe"), modify the `dataset_names` list in the code and run it. Each dataset will be processed individually, and a visualization will be displayed showing the airport networks, clusters, and important airports.
 
 ```python
-# Example usage:
+
 dataset_names = ["USA", "Brazil", "Europe"]
 for name in dataset_names:
     analyze_and_visualize_airport_data(name)
 ```
 
-#### Output
+#### Results
 
 The output includes printed information about each dataset's characteristics and a graphical representation of airport networks with clusters and highlighted important airports.
 
-#### License
-
-This code is provided under [MIT License](https://opensource.org/licenses/MIT).
