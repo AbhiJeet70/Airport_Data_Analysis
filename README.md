@@ -14,7 +14,7 @@ Ensure you have installed the following Python packages:
 You can install these dependencies using pip:
 
 ```bash
-pip install torch-geometric scikit-learn networkx matplotlib
+pip install torch torch-geometric scikit-learn networkx matplotlib
 ```
 
 #### Dataset
